@@ -17,6 +17,11 @@ In this App , I am using Random Images API so every time user open application i
 
 ![UnsplashDemo](https://github.com/jay-vaghasiya/UnsplashDemo/assets/83496900/31dfc760-0893-4d13-bd17-87844f541a4d)
 
+## Download Link
+
+Appcenter: https://install.appcenter.ms/users/jayvaghasiya117/apps/unsplashdemo/distribution_groups/public
+
+
 ## Usage
 
 Just Connected to Internet and it will fetch url and download the images.
