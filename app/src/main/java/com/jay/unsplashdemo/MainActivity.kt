@@ -38,6 +38,7 @@ import com.jay.unsplashdemo.Util.Constant
 import com.jay.unsplashdemo.di.viewmodel.ImageViewModel
 import com.jay.unsplashdemo.model.ImageList
 import com.jay.unsplashdemo.ui.theme.UnsplashDemoTheme
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.File
@@ -45,7 +46,7 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.URL
-
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     private lateinit var imageViewModel: ImageViewModel
     private val uriList = mutableListOf<ImageList>()
