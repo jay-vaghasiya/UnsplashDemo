@@ -16,8 +16,10 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ImageViewModel @Inject constructor(application: Application) : AndroidViewModel(application) {
+
     val _imageListLiveData = MutableLiveData<List<UnsplashImage>?>()
     val imageListLiveData: LiveData<List<UnsplashImage>?> = _imageListLiveData
+
     val _errorMessageLiveData = MutableLiveData<String?>()
     val errorMessageLiveData: LiveData<String?> = _errorMessageLiveData
 
